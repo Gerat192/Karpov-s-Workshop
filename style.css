@@ -1,0 +1,60 @@
+::scroll-marker {
+  display: none;
+}
+code {
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+col {
+  display: table-column;
+}
+colgroup {
+  display: table-column-group;
+}
+background {
+  background-color: transparent;
+}
+rgba {
+  background-color: transparent;
+}
+canvas {
+  display: inline-block;
+}
+about {
+  display: block;
+}
+content {
+  display: block;
+}
+index {
+  display: block;
+}
+main {
+  display: block;
+} 
+body {
+  display: block;
+}
+group {
+  display: block;
+}
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-family: 'Arial', sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+}
+::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+::checkmark {
+  content: "✔";
+  color: var(--primary-color);
+}
+scrpit {
+  display: none;
+} 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Karpov's Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <header>
+        <h1>Karpov's Workshop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>My Services</h2>
+            <p>I offer a range of services to help bring your creative visions to life:</p>
+            <ul>
+                <li><a href="services/3d-modeling.html">3D Modeling</a></li>
+                <li><a href="services/video-editing.html">Video Editing</a></li>
+                <li><a href="services/consulting.html">Consulting</a></li>
+                <li><a href="services/custom-projects.html">Custom Projects</a></li>
+                <li><a href="services/animation.html">Animation</a></li>
+                <li><a href="services/photo-editing.html">Photo Editing</a></li>
+                <li><a href="services/graphic-design.html">Graphic Design</a></li>
+                <li><a href="services/digital-art.html">Digital Art</a></li>
+            </ul>
+        </section>
+    </main>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+    <script src="script.js"></script>
+    <script>
+        // Example JavaScript code for interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceLinks = document.querySelectorAll('main ul li a');
+            serviceLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    alert(`You clicked on ${link.textContent}. This feature is under development.`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

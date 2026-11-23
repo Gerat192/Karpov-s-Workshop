@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Karpov's Workshop</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <header>
+        <h1>Karpov's Workshop</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../services.html">Services</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>3D Modeling Services</h2>
+            <p>I specialize in creating high-quality 3D models for various applications, including games, animations, and product visualizations. Using Blender, I can bring your ideas to life with detailed and realistic models.</p>
+            <p>Whether you need a character model, an environment, or a product prototype, I can help you achieve your vision. My services include modeling, texturing, and rendering to ensure your project looks its best.</p>
+        </section>
+    </main>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+    <script src="../script.js"></script>
+    <script>
+        // Add any specific JavaScript for the 3D modeling page here   
+        function  sendEmail() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            // Here you can add code to send the email using an email service or API
+            // For example, you can use EmailJS or any other service to send emails
+
+            // After sending the email, you can show a confirmation message
+            var confirmationMessage = document.getElementById("confirmationMessage");
+            confirmationMessage.style.display = "block";
+        }           
+        </script>
+</body>
+</html>
